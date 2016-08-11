@@ -1,0 +1,643 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"background",
+				"background-size"
+			],
+			[
+				"m",
+				"max-width"
+			],
+			[
+				"ba",
+				"background-image"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"paddin",
+				"padding-bottom"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"backg",
+				"background"
+			],
+			[
+				"padding",
+				"padding-right"
+			],
+			[
+				"padd",
+				"padding-bottom"
+			],
+			[
+				"margi",
+				"margin-bottom"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"cl",
+				"clear"
+			],
+			[
+				"bor",
+				"border-radius"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"h",
+				"height"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"bo",
+				"border"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"le",
+				"letter-spacing"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"ov",
+				"overflow"
+			],
+			[
+				"thum",
+				"thumbcarousel4"
+			],
+			[
+				"thu",
+				"thumbcarousel3"
+			],
+			[
+				"thumb",
+				"thumbcarousel2"
+			],
+			[
+				"th",
+				"thumbcarousel1"
+			],
+			[
+				"car",
+				"carousel4"
+			],
+			[
+				"carou",
+				"carousel3"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "assets/js/featherlight.js",
+			"settings":
+			{
+				"buffer_size": 20654,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 29309,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/css/featherlight.css",
+			"settings":
+			{
+				"buffer_size": 2631,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/js/featherlight.gallery.js",
+			"settings":
+			{
+				"buffer_size": 5336,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/css/featherlight.gallery.css",
+			"settings":
+			{
+				"buffer_size": 2113,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/css/style.css",
+			"settings":
+			{
+				"buffer_size": 17807,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/js/parallax.min.js",
+			"settings":
+			{
+				"buffer_size": 6665,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 367.0,
+		"selected_items":
+		[
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/Joel/Library/Application Support/Sublime Text 2/Packages/User/SFTP.sublime-settings",
+		"/Users/Joel/Library/Application Support/Sublime Text 2/Packages/User/sftp_servers/brentforrest",
+		"/Users/Joel/Desktop/Projects/masatoshiyamashiro/index.html",
+		"/Users/Joel/Library/Application Support/Sublime Text 2/Packages/User/sftp_servers/joelps",
+		"/Users/Joel/Downloads/featherlight-1.4.0/src/index.html",
+		"/Users/Joel/Downloads/featherlight-1.4.0/src/gallery.html",
+		"/Users/Joel/Downloads/featherlight-1.4.0/src/featherlight.js",
+		"/Users/Joel/Downloads/featherlight-1.4.0/src/featherlight.gallery.js",
+		"/Users/Joel/Downloads/featherlight-1.4.0/src/featherlight.gallery.css",
+		"/Users/Joel/Downloads/featherlight-1.4.0/src/featherlight.css",
+		"/Users/Joel/Desktop/Projects/masatoshiyamashiro/sftp-config.json",
+		"/Users/Joel/Desktop/Projects/masatoshiyamashiro/assets/js/index.js",
+		"/Users/Joel/Desktop/Projects/masatoshiyamashiro/assets/css/style.css"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"*.css",
+			"*.html",
+			"-*.css",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"about",
+			"carousel-inner",
+			"portrait",
+			"url",
+			"screen",
+			"cover",
+			"portrait",
+			"#about",
+			"bleed",
+			"ios",
+			"relati",
+			"vw",
+			"work",
+			"99",
+			"}",
+			"work",
+			"relative",
+			"parallax",
+			"dot",
+			"relative",
+			"assets",
+			"  background-position-y: -180px;\n",
+			"about",
+			"relative",
+			"rotate",
+			"a {",
+			"jpg",
+			"about",
+			".carousel-control",
+			"%;\n",
+			"color",
+			"carousel-inner",
+			"servicelink",
+			"scroll",
+			"servicebutton",
+			"scroll",
+			"dropdown",
+			"mail",
+			"nav2",
+			"social",
+			"navtype",
+			"a {",
+			"masatoshi",
+			"masa",
+			"masaspic",
+			"10px",
+			"a href",
+			"thumbcarousel",
+			"carousel",
+			"thumbcarousel",
+			"carousel",
+			"thumbcarousel",
+			"carousel",
+			"/* Styles */",
+			"navbar-brand",
+			"h1",
+			"cdnjs.cloudflare.",
+			"fonts.googleapis.",
+			"nopadding",
+			"centered",
+			"thumbcarousel2",
+			"carousel2",
+			"thumbcarousel1",
+			"carousel1",
+			"biotext",
+			"col-",
+			"thumbcarousel",
+			"carousel",
+			"thumbcarousel",
+			"carousel",
+			"thumbcarousel",
+			"carousel",
+			"thumbcarousel",
+			"carousel",
+			"nopadding",
+			"foo",
+			"thumbcarousel",
+			"carousel",
+			"thumb",
+			"women",
+			"nopadding",
+			"border-radius",
+			"body"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"vh",
+			"#about {height:280vw;}",
+			".about {height:280vw;}",
+			"height:280vw;",
+			"nopadding",
+			"foo",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "assets/js/featherlight.js",
+					"settings":
+					{
+						"buffer_size": 20654,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 29309,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								369,
+								369
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 59.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "assets/css/featherlight.css",
+					"settings":
+					{
+						"buffer_size": 2631,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1448,
+								1448
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "assets/js/featherlight.gallery.js",
+					"settings":
+					{
+						"buffer_size": 5336,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "assets/css/featherlight.gallery.css",
+					"settings":
+					{
+						"buffer_size": 2113,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "assets/css/style.css",
+					"settings":
+					{
+						"buffer_size": 17807,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								17600,
+								17600
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 19494.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "assets/js/parallax.min.js",
+					"settings":
+					{
+						"buffer_size": 6665,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 10665.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.sftp":
+	{
+		"height": 142.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}
