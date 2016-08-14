@@ -245,18 +245,19 @@ select {
 
 
 h1.hello {
-    font-family: Helvetica, sans-serif;
+    font-family: 'Open-Sans', sans-serif;
     font-weight: 900;
-    font-size: 7em;
-    text-align: center;
-    margin: 20% auto 5% auto;
+    font-size: 5em;
+    text-align: left;
+    margin: 20% auto 5% .5em;
 }
 
 h3.workcopy {
-    width: 75%;
-    margin: 0 auto;
+    width: 81%;
+    margin: 1em 1em 1em auto;
     font-family: 'Roboto', sans-serif;
     line-height: 2em;
+    font-size: 1.5em;
 }
 
 
@@ -301,9 +302,9 @@ h3.workcopy {
 
 .bio {
   margin: 40px 0;
-  padding: 0 10% 0 0;
-  width: 60%;
-  float: right;
+  padding: 0 4%;
+  width: 100%;
+  /* float: right; */
 }
 
 @media (max-width: 772px){
@@ -930,7 +931,7 @@ li.dropdown{
 }
 /* Desktops and laptops ----------- */
 @media only screen  and (min-width : 1224px) {
-#about {height: 48vw;}
+#about {height: auto;}
 li.dropdown{
   display: none;
 }
@@ -938,7 +939,7 @@ li.dropdown{
 
 /* Large screens ----------- */
 @media only screen  and (min-width : 1824px) {
-#about {height:50vw;}
+#about {height:auto;}
 li.dropdown{
   display: none;
 }
