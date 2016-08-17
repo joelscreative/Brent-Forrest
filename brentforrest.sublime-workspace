@@ -151,15 +151,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 29309,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "assets/css/featherlight.css",
-			"settings":
-			{
-				"buffer_size": 2631,
+				"buffer_size": 18837,
 				"line_ending": "Unix"
 			}
 		},
@@ -183,7 +175,7 @@
 			"file": "assets/css/style.css",
 			"settings":
 			{
-				"buffer_size": 17807,
+				"buffer_size": 22933,
 				"line_ending": "Unix"
 			}
 		},
@@ -220,6 +212,7 @@
 	},
 	"file_history":
 	[
+		"/Users/Joel/Desktop/Projects/Brent Forrest/assets/css/featherlight.css",
 		"/Users/Joel/Library/Application Support/Sublime Text 2/Packages/User/SFTP.sublime-settings",
 		"/Users/Joel/Library/Application Support/Sublime Text 2/Packages/User/sftp_servers/brentforrest",
 		"/Users/Joel/Desktop/Projects/masatoshiyamashiro/index.html",
@@ -361,7 +354,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 4,
 			"sheets":
 			[
 				{
@@ -399,15 +392,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 29309,
+						"buffer_size": 18837,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								369,
-								369
+								0,
+								0
 							]
 						],
 						"settings":
@@ -416,7 +409,7 @@
 							"remote_loading": false,
 							"synced": false,
 							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
+							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
@@ -427,36 +420,6 @@
 				},
 				{
 					"buffer": 2,
-					"file": "assets/css/featherlight.css",
-					"settings":
-					{
-						"buffer_size": 2631,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1448,
-								1448
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
 					"file": "assets/js/featherlight.gallery.js",
 					"settings":
 					{
@@ -486,7 +449,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 3,
 					"file": "assets/css/featherlight.gallery.css",
 					"settings":
 					{
@@ -516,19 +479,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 4,
 					"file": "assets/css/style.css",
 					"settings":
 					{
-						"buffer_size": 17807,
+						"buffer_size": 22933,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								17600,
-								17600
+								0,
+								0
 							]
 						],
 						"settings":
@@ -541,13 +504,13 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 19494.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 5,
 					"file": "assets/js/parallax.min.js",
 					"settings":
 					{
