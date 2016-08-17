@@ -489,7 +489,7 @@ h3.workcopy {
     top: 12rem;
     left: 0;
     width: 100%;
-    height: 96vh;
+    height: 17%;
 }
 
 /*@media only screen and (max-device-width: 800px),
@@ -1077,7 +1077,7 @@ iPad 3
         margin: 0px 10px;
         height: 8rem;
         width: 8rem;
-        padding-top: 3%;
+        padding-top: 2%;
         font-size: 2em;
         /* color: rgba(255,255,255,0.7); */
         color: #d5d5d5;

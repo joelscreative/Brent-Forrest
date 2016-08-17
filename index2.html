@@ -11,22 +11,37 @@
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-    <link type="text/css"  rel="stylesheet" href="assets/css/style2.css">
+    <link rel="stylesheet" href="assets/css/style2.css">
 
+    <link type="text/css" rel="stylesheet" href="assets/css/featherlight.css" />
 
     <link type="text/css" rel="stylesheet" href="assets/css/lb-inline.css" />
     
+    <link type="text/css" rel="stylesheet" href="assets/css/featherlight.gallery.css" />
 
-    <link type="text/css" href="assets/css/lightgallery.css" rel="stylesheet">
+    <link href="assets/css/lightgallery.css" rel="stylesheet">
 
 
-    <!-- FONTS -->
+     <!-- FONTS -->
 
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Righteous|Roboto|Fugaz+One|Galada|Oleo+Script+Swash+Caps|Poly:400i" rel="stylesheet">
 
-    
 
-    <!-- DEPENDENCIES -->
+    <!-- SMOOTHSCROLL JQ -->
+    <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js'></script>
+
+    <script>
+        jQuery(document).ready(function($) {
+            $(".scroll").click(function(event) {
+                event.preventDefault();
+                $('html,body').animate({
+                    scrollTop: $(this.hash).offset().top
+                }, 500);
+            });
+        });
+    </script>
+
+
     <script src="http://jacobnewman.co.uk/test/vimeo/dist/jquery.vimeo.api.min.js"></script>
 
 
@@ -49,7 +64,7 @@
 
     <div class="container-fluid nopadding">
 
-         <div class="row">
+        <div class="row">
             <!--     NAVBAR BEGIN -->
             <nav class="navbar navbar-default">
                 <div class="container-fluid nav-wrapper">
@@ -112,9 +127,8 @@
 
             <div class="row">
 
-                
-                    <div class="row">
-                    <div class="banana">
+                <div class="span6">
+                    <div class="row banana">
 
                         <div class="flex-video-wrapper">
                             <div class="flex-video widescreen" style="margin: 0 auto;text-align:center;">
@@ -123,13 +137,19 @@
 
                                 <iframe id="projectplayer" src="https://player.vimeo.com/video/134539068?api=1&background=1&autoplay=1&loop=1&volume=0"></iframe>
 
-                            </div><!-- /flex-video widescreen -->
-                        </div><!-- /flex-video-wrapper -->
-                    </div><!-- /banana -->
-                    </div><!-- /row -->
-               
+                            </div>
+                            <!-- /flex-video widescreen -->
+                        </div>
+                        <!-- /flex-video-wrapper -->
+                    </div>
+                    <!-- /row banana -->
+                </div>
+                <!-- /span6 -->
 
                 <!-- <div id="bg" class="img-responsive"></div> -->
+
+                
+            
 
 
 
@@ -143,15 +163,14 @@
                                 <div class="row backgroundiosfallback">
 
                                     <div class="center-block nopadding">
-                                        <div class="col-lg-6 col-md-6 col-sm-10">
-                                            <div class="hello">
+                                        <div class="col-lg-6 col-md-6 col-sm-8">
+                                            <div class="hello col-lg-12 col-md-12 col-sm-12">
                                                 <h1 class="hello"><i>&ldquo;Dirty Pool&rdquo;</i></h1>
                                                 <h3 class="workcopy">
                                                     A timeless tale of good versus not so good.
                                                 </h3>
                                                 <h3 class="workcopy">
                                                     In 1998, during my final year of high school I got my first animation job at a downtown Toronto studio called Red Rover.I would work there for six years and meet some of the finest animators I’d ever know.  
-                                                  </h3>  
                                                 <h3 class="workcopy">
                                                     Next door to the studio was a pool hall called the Charlotte Room. There we would spend most of our nights shooting pool, taking the piss out of each other and laughing over beers.   
                                                 </h3>
@@ -161,12 +180,8 @@
                                                 <h3 class="workcopy">
                                                     Dedicated to Andy Knight and the Nine old Men of Rover
                                                 </h3>
-                                            </div><!-- /hello-->
-
+                                            </div><!-- /hello col-lg-12 col-md-12 col-sm-12 -->
                                         </div><!-- /col-lg-6 col-md-6 col-sm-8 -->
-
-                                                            
-                                                    
                                         <div class="demo-gallery col-lg-6 col-md-6 col-sm-12" id="aniimated-thumbnials">
                                                 <ul id="lightgallery" class="list-unstyled row">
                                                     <li class="trigger col-xs-6 col-sm-4 col-md-3" data-responsive="assets/img/1-375.jpg 375, assets/img/1-480.jpg 480, assets/img/1.jpg 800" data-src="assets/img/1-1600.jpg" data-sub-html="<h4>Fading Light</h4><p>Classic view from Rigwood Jetty on Coniston Water an old archive shot similar to an old post but a little later on.</p>">
@@ -175,11 +190,9 @@
                                                         </a>
                                                     </li>
                                                 </ul>
-                                           </div><!-- /demo-gallery col-lg-6 col-md-6 col-sm-12 -->     
+                                           </div><!-- /col-lg-6 col-md-6 col-sm-12 -->     
                                 </div><!-- col-md-4 center-block nopadding -->
-                                <!-- <div class="col-md-6 col-lg-6 col-sm-8">
-                                    <img  src="assets/img/thumb-1.jpg">
-                                 </div> -->
+                            
 
                                         <div class="col-md-6 col-lg-6 col-sm-8">
                                             <div class="bio">
@@ -204,16 +217,20 @@
                                                     <h2>Christophe Sayaveth</h2>
                                                     <h2>Francois Prat and</h2>
                                                     <h2>Kaoru Yamaguchi</h2>
-                                                    <h2>For their support and critical eyes</h2>
+                                                    For their support and critical eyes</h2>
 
                                                     <address>Created in Tokyo Japan, 2016</address>
-                                                </div><!-- /text-center biotext -->
-                                            </div><!-- /bio -->
-                                        </div><!-- /col-md-6 col-lg-6 col-sm-8 -->   
+                                                </div>
+
+                                            </div>
+                                        </div><!-- /col-md-6 col-lg-6 col-sm-8 -->    
+
+                                    </div><!-- /bio -->
                                    </div><!-- /row backgroundiosfallback -->     
                                 </div><!-- /container biobox -->
                     </section> <!-- /about -->
-                </div><!-- /row -->
+                </div>
+                <!-- /row -->
 
 
 
@@ -291,15 +308,19 @@
                 </section><!-- /footer -->
 
         </div><!-- CONTAINER-FLUID END   -->
-        </div>
+        
 
         <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 
-        <script src="assets/js/index.js"></script>
+        <script src="js/index.js"></script>
 
         <script src="//code.jquery.com/jquery-latest.js"></script>
+
+        <script src="//cdn.rawgit.com/noelboss/featherlight/1.4.0/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+
+        <script src="//cdn.rawgit.com/noelboss/featherlight/1.4.0/release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
         
         <script type="text/javascript">
             $(document).ready(function(){
@@ -318,57 +339,6 @@
         <script src="assets/js/lg-hash.js"></script>
         <script src="assets/js/lg-pager.js"></script>
         <script src="assets/js/jquery.mousewheel.min.js"></script>
-
-<script>
-    $(document).ready(function() {
-        $('.gallery').featherlightGallery({
-            gallery: {
-                fadeIn: 300,
-                fadeOut: 300
-            },
-            openSpeed: 300,
-            closeSpeed: 300
-        });
-        $('.gallery2').featherlightGallery({
-            gallery: {
-                next: 'next »',
-                previous: '« previous'
-            },
-            variant: 'featherlight-gallery2'
-        });
-    });
-
-    (function(i, s, o, g, r, a, m) {
-        i['GoogleAnalyticsObject'] = r;
-        i[r] = i[r] || function() {
-            (i[r].q = i[r].q || []).push(arguments)
-        }, i[r].l = 1 * new Date();
-        a = s.createElement(o),
-            m = s.getElementsByTagName(o)[0];
-        a.async = 1;
-        a.src = g;
-        m.parentNode.insertBefore(a, m)
-    })(window, document, 'script', '//stats.g.doubleclick.net/dc.js', 'ga');
-
-    ga('create', 'UA-5342062-6', 'noelboss.github.io');
-    ga('send', 'pageview');
-</script>
-
-
-<!-- SMOOTHSCROLL JQ -->
-    <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js'></script>
-
-    <script>
-        jQuery(document).ready(function($) {
-            $(".scroll").click(function(event) {
-                event.preventDefault();
-                $('html,body').animate({
-                    scrollTop: $(this.hash).offset().top
-                }, 500);
-            });
-        });
-    </script>
-
         
 </body>
 
