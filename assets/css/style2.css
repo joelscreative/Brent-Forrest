@@ -128,9 +128,10 @@ ul.nav.navbar-nav.navfont {}
 }
 
 #about {
-    background-color: transparent;
-    background-size: cover;
-    background-repeat: no-repeat;
+    background:url('https://www.transparenttextures.com/patterns/diagonal-noise.png') repeat;
+   /* background-color:#c5c5c5;*/
+   /* background-size: cover;*/
+    background-repeat: repeat;
     /* display: inline-block; */
 }
 
@@ -235,6 +236,14 @@ h1.hello {
     text-align: left;
     margin: 20% auto 5% .5em;
     color: #3F7FBF;
+}
+
+h1.hello:after {
+    content: "";
+    border-bottom: 2px solid #3f7fbf;
+    display: block;
+    width: 30%;
+    margin: 5rem auto;
 }
 
 h3.workcopy {
@@ -425,12 +434,16 @@ h3.workcopy {
     width: 100%;
 }
 
+.photolink {
+    display: none;
+}
+
 
 /*========================VIDEO========================*/
 
 .banana {
     overflow: hidden;
-    height: 55vw;
+    height: 57vw;
     margin-top: -60px;
     position: relative;
     z-index: 0;
@@ -927,180 +940,12 @@ iPad 3
 }
 
 
-/* iPhone 5 ----------- */
 
 
-/* ----------- iPhone 5 and 5S ----------- */
 
 
-/* Portrait and Landscape */
-
-@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
-    .banana {
-        height: 92vh;
-    }
-    #about {
-        height: auto;
-        width: 100%;
-        padding: 0;
-    }
-    .flex-video iframe,
-    .flex-video object,
-    .flex-video embed {
-        position: absolute;
-        top: 13rem;
-        left: 0;
-        width: 100%;
-        height: 37%;
-    }
-    .flex-video.widescreen {
-        padding-bottom: 272.25%;
-    }
-    h3.workcopy {
-        width: 90%;
-        margin: 1em auto;
-        font-family: 'Roboto', sans-serif;
-        line-height: 2em;
-        font-size: 1.25em;
-        text-align: center;
-    }
-    div#thumbcarousel1 {
-        height: 73px;
-        margin-top: -1em;
-    }
-    .carousel {
-        margin-top: 6rem;
-        height: 300px;
-    }
-    h1.hello {
-        margin-left: 0;
-        text-align: center;
-    }
-    div.social {
-        height: 25rem;
-    }
-   div.social li {
-    display: inline-block;
-    margin: 0px 10px;
-    height: 50px;
-    width: 50px;
-    padding-top: 12px;
-    font-size: 20px;
-    /* color: rgba(255,255,255,0.7); */
-    color: #d5d5d5;
-    border-radius: 40px;
-    text-align: center;
-}
-    .navbar-default .navbar-collapse,
-    .navbar-default .navbar-form {
-        border-color: #fff;
-    }
-    .nav-wrapper {
-        background-color: #fff;
-    }
-    ul.nav.navbar-nav.navfont {
-        text-align: right;
-    }
-    .biotext h2 {
-        font-size: 1.2em;
-        font-weight: 900;
-    }
-    .biotext {
-        font-size: 1em;
-    }
-    .hello {
-        width: 100%;
-    }
-    .copy {
-        padding-top: 20px;
-    }
-    .credit {
-        padding-top: 0;
-    }
-}
 
 
-/* iPhone 6 ----------- */
-
-@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2) {
-    #about {
-        height: 160vh;
-    }
-}
-
-@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2) {
-    .banana {
-        height: 87vh !important;
-    }
-    #about {
-        height: auto;
-        padding: 0;
-    }
-    .flex-video iframe,
-    .flex-video object,
-    .flex-video embed {
-        position: absolute;
-        top: 13rem;
-        left: 0;
-        width: 100%;
-        height: 36%;
-}
-    }
-    .flex-video.widescreen {
-        padding-bottom: 272.25%;
-    }
-    h3.workcopy {
-        width: 90%;
-        margin: 1em auto;
-        font-family: 'Roboto', sans-serif;
-        line-height: 2em;
-        font-size: 1.25em;
-        text-align: center;
-    }
-    div#thumbcarousel1 {
-        height: 73px;
-        margin-top: -1em;
-    }
-    .carousel {
-        margin-top: 6rem;
-        height: 300px;
-    }
-    h1.hello {
-        margin-left: 0;
-        text-align: center;
-    }
-    div.social {
-        height: 25rem;
-    }
-    div.social li {
-        display: inline-block;
-        margin: 0px 10px;
-        height: 8rem;
-        width: 8rem;
-        padding-top: 2%;
-        font-size: 2em;
-        /* color: rgba(255,255,255,0.7); */
-        color: #d5d5d5;
-        border-radius: 40px;
-        text-align: center;
-    }
-    .navbar-default .navbar-collapse,
-    .navbar-default .navbar-form {
-        border-color: #fff;
-    }
-    .nav-wrapper {
-        background-color: #fff;
-    }
-    ul.nav.navbar-nav.navfont {
-        text-align: right;
-    }
-    .copy {
-        padding-top: 20px;
-    }
-    .credit {
-        padding-top: 0;
-    }
-}
 
 
 /* iPhone 6+ ----------- */
@@ -1117,7 +962,7 @@ iPad 3
         padding: 0;
     }
     .banana {
-        height: 86vh;
+        height: 49vh;
     }
     h3.workcopy {
         width: 90%;
@@ -1277,4 +1122,199 @@ iPad 3
     .credit {
         padding-top: 0;
     }
+}
+
+/* iPhone 6 ----------- */
+
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2) {
+    #about {
+        height: 160vh;
+    }
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2) {
+    .banana {
+        height: 50vh !important;
+    }
+    #about {
+        height: auto;
+        padding: 0;
+    }
+    .flex-video iframe,
+    .flex-video object,
+    .flex-video embed {
+        position: absolute;
+        top: 13rem;
+        left: 0;
+        width: 100%;
+        height: 36%;
+}
+    }
+    .flex-video.widescreen {
+        padding-bottom: 272.25%;
+    }
+    h3.workcopy {
+        width: 90%;
+        margin: 1em auto;
+        font-family: 'Roboto', sans-serif;
+        line-height: 2em;
+        font-size: 1.25em;
+        text-align: center;
+    }
+    .biotext {
+    font-size: 1em;
+}
+h1.hello {
+    margin-left: -15px;
+    text-align: center;
+}
+    div#thumbcarousel1 {
+        height: 73px;
+        margin-top: -1em;
+    }
+    .carousel {
+        margin-top: 6rem;
+        height: 300px;
+    }
+    h1.hello {
+        margin-left: 0;
+        text-align: center;
+    }
+    div.social {
+        height: 25rem;
+    }
+    div.social li {
+        display: inline-block;
+        margin: 0px 10px;
+        height: 8rem;
+        width: 8rem;
+        padding-top: 2%;
+        font-size: 2em;
+        /* color: rgba(255,255,255,0.7); */
+        color: #d5d5d5;
+        border-radius: 40px;
+        text-align: center;
+    }
+    .navbar-default .navbar-collapse,
+    .navbar-default .navbar-form {
+        border-color: #fff;
+    }
+    .nav-wrapper {
+        background-color: #fff;
+    }
+    ul.nav.navbar-nav.navfont {
+        text-align: right;
+    }
+    .copy {
+        padding-top: 20px;
+    }
+    .credit {
+        padding-top: 0;
+    }
+    #cp_widget_521987bf-4319-4177-847e-087d212dcb52 {
+    /* background: #fff; */
+    font: 13px/20px Arial, Verdana, Helvetica, sans-serif;
+    color: #000;
+    margin: 0 auto;
+    top: 10rem;
+    }
+}
+
+/* ----------- iPhone 5 and 5S ----------- */
+
+
+/* Portrait and Landscape */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+    .banana {
+        height: 55vh;
+    }
+    #about {
+        height: auto;
+        width: 100%;
+        padding: 0;
+    }
+    .flex-video iframe,
+    .flex-video object,
+    .flex-video embed {
+        position: absolute;
+        top: 13rem;
+        left: 0;
+        width: 100%;
+        height: 37%;
+    }
+    .flex-video.widescreen {
+        padding-bottom: 272.25%;
+    }
+    h3.workcopy {
+        width: 90%;
+        margin: 1em auto;
+        font-family: 'Roboto', sans-serif;
+        line-height: 2em;
+        font-size: 1.25em;
+        text-align: center;
+    }
+    div#thumbcarousel1 {
+        height: 73px;
+        margin-top: -1em;
+    }
+    .carousel {
+        margin-top: 6rem;
+        height: 300px;
+    }
+    h1.hello {
+        margin-left: 0;
+        text-align: center;
+    }
+    div.social {
+        height: 25rem;
+    }
+   div.social li {
+        display: inline-block;
+    margin: 0px 10px;
+    height: 50px;
+    width: 13rem;
+    padding-top: 12px;
+    padding-bottom: 70px;
+    font-size: 2em;
+    /* color: rgba(255,255,255,0.7); */
+    color: #d5d5d5;
+    border-radius: 40px;
+    text-align: center;
+}
+    .navbar-default .navbar-collapse,
+    .navbar-default .navbar-form {
+        border-color: #fff;
+    }
+    .nav-wrapper {
+        background-color: #fff;
+    }
+    ul.nav.navbar-nav.navfont {
+        text-align: right;
+    }
+    .biotext h2 {
+        font-size: 1.2em;
+        font-weight: 900;
+    }
+    .biotext {
+        font-size: 1em;
+    }
+    .hello {
+        width: 100%;
+    }
+    .copy {
+        padding-top: 20px;
+    }
+    .credit {
+        padding-top: 0;
+    }
+    #cp_widget_521987bf-4319-4177-847e-087d212dcb52 {
+     background: #fff; 
+    font: 13px/20px Arial, Verdana, Helvetica, sans-serif;
+    color: #000;
+    margin: 0 auto;
+    top: 11rem;
+}
+
+
 }
