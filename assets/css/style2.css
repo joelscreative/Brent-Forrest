@@ -307,7 +307,7 @@ h3.workcopy {
 
 .biotext {
     color: #D7D7D7;
-    padding: 10px 60px;
+    padding: 5rem;
     line-height: 2.5em;
     font-size: 1.2em;
     text-align: center;
@@ -763,11 +763,10 @@ MEDIA QUERY DEVICE BREAKPOINTS
 
 /* iPads (portrait and landscape) ----------- */
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+/*@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
     #about {
         height: auto;
         width: 100%;
-        /* padding-bottom:2rem; */
     }
     li.dropdown {
         display: none;
@@ -793,7 +792,7 @@ MEDIA QUERY DEVICE BREAKPOINTS
     .container {
         width: 100%;
     }
-}
+}*/
 
 
 /* iPads (landscape) ----------- */
@@ -802,7 +801,6 @@ MEDIA QUERY DEVICE BREAKPOINTS
     #about {
         height: auto;
         width: 100%;
-        /* padding-bottom:2rem; */
     }
     li.dropdown {
         display: none;
@@ -820,6 +818,11 @@ MEDIA QUERY DEVICE BREAKPOINTS
     .bio {
         margin-left: 0!important;
     }
+
+
+    .credit {
+    padding-top: 20px;
+    }
 }
 
 
@@ -831,8 +834,24 @@ MEDIA QUERY DEVICE BREAKPOINTS
         width: 100%;
         padding-bottom: 2rem;
     }
+    .banana{
+        height: 73vw;
+    }
     li.dropdown {
         display: none;
+    }
+
+    .credit {
+        padding-top: 0;
+    }
+
+    .address {
+        text-align: center;
+    }
+
+    div.social ul{
+        text-align: center;
+        margin:0;
     }
 }
 
@@ -852,13 +871,16 @@ iPad 3
     }
     .banana {
         overflow: hidden;
-        height: 86vw;
+        height: 68vw;
         margin-top: -50px;
         position: relative;
         z-index: 0;
     }
     .container {
         width: 100%;
+    }
+    .credit {
+        padding-top: 20px;
     }
 }
 
@@ -874,6 +896,7 @@ iPad 3
     .language-picker {
         float: right;
         padding: .5em 3em 0 0;
+        display: none;
     }
     .flex-video iframe,
     .flex-video object,
@@ -943,291 +966,14 @@ iPad 3
 
 
 
-
-
-
-
-
-/* iPhone 6+ ----------- */
-
-@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 3) {
-    #about {
-        height: 160vh;
-    }
-}
-
-@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3) {
-    #about {
-        height: auto;
-        padding: 0;
-    }
-    .banana {
-        height: 49vh;
-    }
-    h3.workcopy {
-        width: 90%;
-        /*margin: 1em .25em;*/
-        font-family: 'Roboto', sans-serif;
-        line-height: 2em;
-        font-size: 1.5em;
-        text-align: center;
-    }
-    .flex-video iframe,
-    .flex-video object,
-    .flex-video embed {
-        position: absolute;
-        top: 13rem;
-        left: 0;
-        width: 100%;
-        height: 36% !important;
-    }
-    .flex-video.widescreen {
-        padding-bottom: 272.25%;
-    }
-    div#thumbcarousel1 {
-        height: 73px;
-        margin-top: -1em;
-    }
-    .carousel {
-        margin-top: 6rem;
-        height: 300px;
-    }
-    div.social {
-        height: 25rem;
-    }
-    div.social li {
-        display: inline-block;
-        margin: 0px 10px;
-        height: 8rem;
-        width: 100%;
-        padding-top: 12px;
-        font-size: 3em;
-        /* color: rgba(255,255,255,0.7); */
-        color: #d5d5d5;
-        border-radius: 40px;
-        text-align: center;
-    }
-    .navbar-default .navbar-collapse,
-    .navbar-default .navbar-form {
-        border-color: #fff;
-    }
-    .nav-wrapper {
-        background-color: #fff;
-    }
-    ul.nav.navbar-nav.navfont {
-        text-align: right;
-    }
-    h1.hello {
-        font-family: 'Oleo Script Swash Caps', cursive;
-        font-weight: 900;
-        font-size: 3em;
-        text-align: left;
-        margin: 20% auto 5% 15%;
-        color: #3F7FBF;
-    }
-    .copy {
-        padding-top: 20px;
-    }
-    .credit {
-        padding-top: 0;
-    }
-}
-
-
-/* Samsung Galaxy S4 ----------- */
-
-@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 3) {
-    #about {
-        height: 280vw;
-    }
-}
-
-@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3) {
-    #about {
-        height: 280vw;
-    }
-}
-
-
-/* Samsung Galaxy S5 ----------- */
-
-@media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3) {
-    #about {
-        height: auto;
-        padding: 0;
-    }
-    .banana {
-        height: 125vh;
-    }
-    .flex-video iframe,
-    .flex-video object,
-    .flex-video embed {
-        position: absolute;
-        top: 12rem;
-        left: -300px;
-        width: 280%;
-        height: 100%;
-    }
-    .flex-video.widescreen {
-        padding-bottom: 272.25%;
-    }
-    h3.workcopy {
-        width: 90%;
-        margin: 1em auto;
-        font-family: 'Roboto', sans-serif;
-        line-height: 2em;
-        font-size: 1.25em;
-        text-align: center;
-    }
-    div#thumbcarousel1 {
-        height: 73px;
-        margin-top: -1em;
-    }
-    .carousel {
-        margin-top: 6rem;
-        height: 300px;
-    }
-    h1.hello {
-        margin-left: 0;
-        text-align: center;
-    }
-    div.social {
-        height: 25rem;
-    }
-    div.social li {
-        display: inline-block;
-        margin: 0px 10px;
-        height: 8rem;
-        width: 100%;
-        padding-top: 12px;
-        font-size: 3em;
-        /* color: rgba(255,255,255,0.7); */
-        color: #d5d5d5;
-        border-radius: 40px;
-        text-align: center;
-    }
-    .navbar-default .navbar-collapse,
-    .navbar-default .navbar-form {
-        border-color: #fff;
-    }
-    .nav-wrapper {
-        background-color: #fff;
-    }
-    ul.nav.navbar-nav.navfont {
-        text-align: right;
-    }
-    .copy {
-        padding-top: 20px;
-    }
-    .credit {
-        padding-top: 0;
-    }
-}
-
-/* iPhone 6 ----------- */
-
-@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2) {
-    #about {
-        height: 160vh;
-    }
-}
-
-@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2) {
-    .banana {
-        height: 50vh !important;
-    }
-    #about {
-        height: auto;
-        padding: 0;
-    }
-    .flex-video iframe,
-    .flex-video object,
-    .flex-video embed {
-        position: absolute;
-        top: 13rem;
-        left: 0;
-        width: 100%;
-        height: 36%;
-}
-    }
-    .flex-video.widescreen {
-        padding-bottom: 272.25%;
-    }
-    h3.workcopy {
-        width: 90%;
-        margin: 1em auto;
-        font-family: 'Roboto', sans-serif;
-        line-height: 2em;
-        font-size: 1.25em;
-        text-align: center;
-    }
-    .biotext {
-    font-size: 1em;
-}
-h1.hello {
-    margin-left: -15px;
-    text-align: center;
-}
-    div#thumbcarousel1 {
-        height: 73px;
-        margin-top: -1em;
-    }
-    .carousel {
-        margin-top: 6rem;
-        height: 300px;
-    }
-    h1.hello {
-        margin-left: 0;
-        text-align: center;
-    }
-    div.social {
-        height: 25rem;
-    }
-    div.social li {
-        display: inline-block;
-        margin: 0px 10px;
-        height: 8rem;
-        width: 8rem;
-        padding-top: 2%;
-        font-size: 2em;
-        /* color: rgba(255,255,255,0.7); */
-        color: #d5d5d5;
-        border-radius: 40px;
-        text-align: center;
-    }
-    .navbar-default .navbar-collapse,
-    .navbar-default .navbar-form {
-        border-color: #fff;
-    }
-    .nav-wrapper {
-        background-color: #fff;
-    }
-    ul.nav.navbar-nav.navfont {
-        text-align: right;
-    }
-    .copy {
-        padding-top: 20px;
-    }
-    .credit {
-        padding-top: 0;
-    }
-    #cp_widget_521987bf-4319-4177-847e-087d212dcb52 {
-    /* background: #fff; */
-    font: 13px/20px Arial, Verdana, Helvetica, sans-serif;
-    color: #000;
-    margin: 0 auto;
-    top: 10rem;
-    }
-}
-
 /* ----------- iPhone 5 and 5S ----------- */
 
 
-/* Portrait and Landscape */
+/* Portrait */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
-    .banana {
-        height: 55vh;
+ .banana {
+        height: 95vw;
     }
     #about {
         height: auto;
@@ -1318,3 +1064,301 @@ h1.hello {
 
 
 }
+
+
+
+
+/* iPhone 6+ ----------- */
+
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 3) {
+    #about {
+        height: 160vh;
+    }
+    .language-picker {
+    float: right;
+    padding: .5em 3em 0 0;
+    display: none;
+    }
+    .banana{
+        height: 73vw;
+    }
+    #about {
+        height: 100%;
+    }
+    .credit {
+        padding-top: 0;
+    }
+}
+
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3) {
+    #about {
+        height: auto;
+        padding: 0;
+    }
+    .banana {
+        height: 49vh;
+    }
+    h3.workcopy {
+        width: 90%;
+        /*margin: 1em .25em;*/
+        font-family: 'Roboto', sans-serif;
+        line-height: 2em;
+        font-size: 1.5em;
+        text-align: center;
+    }
+    .flex-video iframe,
+    .flex-video object,
+    .flex-video embed {
+        position: absolute;
+        top: 13rem;
+        left: 0;
+        width: 100%;
+        height: 36% !important;
+    }
+    .flex-video.widescreen {
+        padding-bottom: 272.25%;
+    }
+    div#thumbcarousel1 {
+        height: 73px;
+        margin-top: -1em;
+    }
+    .carousel {
+        margin-top: 6rem;
+        height: 300px;
+    }
+    div.social {
+        height: 25rem;
+    }
+    div.social li {
+        display: inline-block;
+        margin: 0px 10px;
+        height: 8rem;
+        width: 100%;
+        padding-top: 12px;
+        font-size: 3em;
+        /* color: rgba(255,255,255,0.7); */
+        color: #d5d5d5;
+        border-radius: 40px;
+        text-align: center;
+    }
+    .navbar-default .navbar-collapse,
+    .navbar-default .navbar-form {
+        border-color: #fff;
+    }
+    .nav-wrapper {
+        background-color: #fff;
+    }
+    ul.nav.navbar-nav.navfont {
+        text-align: right;
+    }
+    h1.hello {
+        font-family: 'Oleo Script Swash Caps', cursive;
+        font-weight: 900;
+        font-size: 3em;
+        text-align: left;
+        margin: 20% auto 5% 15%;
+        color: #3F7FBF;
+    }
+    .copy {
+        padding-top: 20px;
+    }
+    .credit {
+        padding-top: 0;
+    }
+}
+
+
+/* Samsung Galaxy S4 ----------- */
+
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 3) {
+    #about {
+        height: 100%;
+    }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3) {
+    #about {
+        height: 100%;
+    }
+}
+
+
+/* Samsung Galaxy S5 ----------- */
+
+@media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3) {
+    #about {
+        height: auto;
+        padding: 0;
+    }
+    .banana {
+        height: 125vh;
+    }
+    .flex-video iframe,
+    .flex-video object,
+    .flex-video embed {
+        position: absolute;
+        top: 12rem;
+        left: -300px;
+        width: 280%;
+        height: 100%;
+    }
+    .flex-video.widescreen {
+        padding-bottom: 272.25%;
+    }
+    h3.workcopy {
+        width: 90%;
+        margin: 1em auto;
+        font-family: 'Roboto', sans-serif;
+        line-height: 2em;
+        font-size: 1.25em;
+        text-align: center;
+    }
+    div#thumbcarousel1 {
+        height: 73px;
+        margin-top: -1em;
+    }
+    .carousel {
+        margin-top: 6rem;
+        height: 300px;
+    }
+    h1.hello {
+        margin-left: 0;
+        text-align: center;
+    }
+    div.social {
+        height: 25rem;
+    }
+    div.social li {
+        display: inline-block;
+        margin: 0px 10px;
+        height: 8rem;
+        width: 100%;
+        padding-top: 12px;
+        font-size: 3em;
+        /* color: rgba(255,255,255,0.7); */
+        color: #d5d5d5;
+        border-radius: 40px;
+        text-align: center;
+    }
+    .navbar-default .navbar-collapse,
+    .navbar-default .navbar-form {
+        border-color: #fff;
+    }
+    .nav-wrapper {
+        background-color: #fff;
+    }
+    ul.nav.navbar-nav.navfont {
+        text-align: right;
+    }
+    .copy {
+        padding-top: 20px;
+    }
+    
+}
+
+/* iPhone 6 ----------- */
+
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2) {
+    #about {
+        height: 160vh;
+    }
+    .banana{
+        height: 74vw;
+    }
+    #about {
+        height: 100%;
+    }
+    .credit {
+        padding-top: 0;
+    }
+    .language-picker{
+        display: none;
+    }
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2) {
+    .banana {
+        height: 50vh !important;
+    }
+    #about {
+        height: auto;
+        padding: 0;
+    }
+    .flex-video iframe,
+    .flex-video object,
+    .flex-video embed {
+        position: absolute;
+        top: 13rem;
+        left: 0;
+        width: 100%;
+        height: 36%;
+}
+    }
+    .flex-video.widescreen {
+        padding-bottom: 272.25%;
+    }
+    h3.workcopy {
+        width: 90%;
+        margin: 1em auto;
+        font-family: 'Roboto', sans-serif;
+        line-height: 2em;
+        font-size: 1.25em;
+        text-align: center;
+    }
+    .biotext {
+    font-size: 1em;
+}
+h1.hello {
+    margin-left: -15px;
+    text-align: center;
+}
+    div#thumbcarousel1 {
+        height: 73px;
+        margin-top: -1em;
+    }
+    .carousel {
+        margin-top: 6rem;
+        height: 300px;
+    }
+    h1.hello {
+        margin-left: 0;
+        text-align: center;
+    }
+    div.social {
+        height: 25rem;
+    }
+    div.social li {
+        display: inline-block;
+        margin: 0px 10px;
+        height: 8rem;
+        width: 8rem;
+        padding-top: 2%;
+        font-size: 2em;
+        /* color: rgba(255,255,255,0.7); */
+        color: #d5d5d5;
+        border-radius: 40px;
+        text-align: center;
+    }
+    .navbar-default .navbar-collapse,
+    .navbar-default .navbar-form {
+        border-color: #fff;
+    }
+    .nav-wrapper {
+        background-color: #fff;
+    }
+    ul.nav.navbar-nav.navfont {
+        text-align: right;
+    }
+    .copy {
+        padding-top: 20px;
+    }
+    
+    #cp_widget_521987bf-4319-4177-847e-087d212dcb52 {
+    /* background: #fff; */
+    font: 13px/20px Arial, Verdana, Helvetica, sans-serif;
+    color: #000;
+    margin: 0 auto;
+    top: 10rem;
+    }
+}
+
