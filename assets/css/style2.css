@@ -126,6 +126,10 @@ ul.nav.navbar-nav.navfont {}
     background-color: rgba(224, 224, 224, 0.5);
     border: none;
 }
+.biobox{
+    margin-top: 0rem;
+    margin-bottom: 10rem;
+}
 
 #about {
     background:url('https://www.transparenttextures.com/patterns/diagonal-noise.png') repeat;
@@ -436,6 +440,12 @@ h3.workcopy {
 
 .photolink {
     display: none;
+}
+
+.photo {
+    width: 100%;
+    margin: 5rem auto;
+    border: 2px solid #f6f6f6;
 }
 
 
@@ -1256,6 +1266,7 @@ iPad 3
     
 }
 
+
 /* iPhone 6 ----------- */
 
 @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2) {
@@ -1359,6 +1370,16 @@ h1.hello {
     color: #000;
     margin: 0 auto;
     top: 10rem;
+    }
+}
+
+@media only screen and (min-device-width: 769px) {
+    .biobox {
+       padding-top: 0;
+       margin: 0 auto; 
+    }
+    .banana {
+        height: 60vw;
     }
 }
 
