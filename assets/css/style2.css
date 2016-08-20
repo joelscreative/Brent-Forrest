@@ -197,11 +197,34 @@ select {
     padding: .5em 3em 0 0;
 }
 
+@media screen and (max-device-width: 767px) and (min-device-width: 480px ) {
+    .language-picker{
+        display: none;
+    }
+
+    .banana {
+    overflow: hidden;
+    height: 60vw;
+    margin-top: 45px;
+    position: relative;
+    z-index: 0;
+    }
+}
+
+
+
 .copy {
     text-align: right;
-    padding-top: 80px;
+    padding-top: 20px;
     padding-bottom: 30px;
 }
+
+.credit {
+        padding-top: 20px;
+
+}
+
+
 
 
 
@@ -211,15 +234,15 @@ select {
         padding-top: 80px;
         padding-bottom: 10px;
     }
-}
-
-@media (max-width: 770px) {
-    .credit {
+     .credit {
         text-align: center;
-        padding-top: 80px;
+        padding-top: 20px;
         padding-bottom: 30px;
     }
 }
+
+
+   
 
 .copycredit {
     font-family: 'Roboto', sans-serif;
@@ -323,7 +346,7 @@ h3.workcopy {
 
 .biotext h2 {
     margin-top: .25em;
-    margin-bottom: 2em;
+    margin-bottom: 1em;
 }
 
 @media (max-width: 770px) {
@@ -453,10 +476,11 @@ h3.workcopy {
 
 .banana {
     overflow: hidden;
-    height: 57vw;
-    margin-top: -60px;
+    height: 59vw;
+    margin-top: 41px;
     position: relative;
     z-index: 0;
+    background:url('https://www.transparenttextures.com/patterns/diagonal-noise.png') repeat;
 }
 
 
@@ -533,14 +557,7 @@ only screen and (max-width: 767px) {
     }
 }*/
 
-#dot-matrix {
-    background: url(http://s14.directupload.net/images/111129/44ga9qid.png);
-    height: 100%;
-    width: 100%;
-    position: fixed;
-    top: 0;
-    z-index: 1;
-}
+
 
 .address {
     padding: 50px 0 0 0;
@@ -652,7 +669,7 @@ MEDIA QUERY DEVICE BREAKPOINTS
 
 @media only screen and (min-width: 321px) {
     #about {
-        height: auto;
+        height: 100%;
     }
 }
 
@@ -804,7 +821,11 @@ MEDIA QUERY DEVICE BREAKPOINTS
     }
 }*/
 
-
+@media only screen and (min-device-width:768px)  { 
+    li.dropdown {
+        display: none;
+    }
+    }
 /* iPads (landscape) ----------- */
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
@@ -812,9 +833,7 @@ MEDIA QUERY DEVICE BREAKPOINTS
         height: auto;
         width: 100%;
     }
-    li.dropdown {
-        display: none;
-    }
+  
     .banana {
         overflow: hidden;
         height: 86vw;
@@ -881,8 +900,8 @@ iPad 3
     }
     .banana {
         overflow: hidden;
-        height: 68vw;
-        margin-top: -50px;
+        height: 60vw;
+        margin-top: 40px;
         position: relative;
         z-index: 0;
     }
@@ -911,10 +930,28 @@ iPad 3
     .flex-video iframe,
     .flex-video object,
     .flex-video embed {
-        /* left: -70rem !important; */
     }
 }
 
+/*@media screen and (max-device-width: 1023px) and (min-device-width: 769px ) {
+ 
+
+    .banana {
+    overflow: hidden;
+    height: 60vw;
+    margin-top: 45px;
+    position: relative;
+    z-index: 0;
+    }
+
+    #about {
+        height: 100%;
+    }
+
+    h1.hello {
+        width: 100%;
+    }
+}*/
 
 /* Desktops and laptops ----------- */
 
@@ -950,7 +987,7 @@ iPad 3
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
     #about {
-        height: auto;
+        height: 100%;
     }
     h1.hello {
         font-size: 3em;
@@ -983,10 +1020,10 @@ iPad 3
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
 
  .banana {
-        height: 95vw;
+        height: 75vw;
     }
     #about {
-        height: auto;
+        height: 100%;
         width: 100%;
         padding: 0;
     }
@@ -1082,7 +1119,7 @@ iPad 3
 
 @media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 3) {
     #about {
-        height: 160vh;
+        height: 100%;
     }
     .language-picker {
     float: right;
@@ -1274,7 +1311,7 @@ iPad 3
         height: 160vh;
     }
     .banana{
-        height: 74vw;
+        height: 59vw;
     }
     #about {
         height: 100%;
@@ -1289,10 +1326,10 @@ iPad 3
 
 @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2) {
     .banana {
-        height: 50vh !important;
+        height: 59vh !important;
     }
     #about {
-        height: auto;
+        height: 100%;
         padding: 0;
     }
     .flex-video iframe,
@@ -1359,9 +1396,6 @@ h1.hello {
     }
     ul.nav.navbar-nav.navfont {
         text-align: right;
-    }
-    .copy {
-        padding-top: 20px;
     }
     
     #cp_widget_521987bf-4319-4177-847e-087d212dcb52 {
