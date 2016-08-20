@@ -129,7 +129,6 @@ ul.nav.navbar-nav.navfont {}
 .biobox{
     margin-top: 0rem;
     margin-bottom: 10rem;
-    width: 100%;
 }
 
 #about {
@@ -362,8 +361,8 @@ h3.workcopy {
 .links button {
     margin: 0 auto;
     border: none;
-    padding:2rem;
-    width: 90%;
+    padding:1rem;
+    width: 100%;
 }
 
 .links a {
@@ -472,7 +471,7 @@ h3.workcopy {
 
 .backgroundiosfallback {
     background-color: #F9F9FA;
-    box-shadow: 5px 5px 5px rgba(114, 114, 114, 0.05);
+    box-shadow: 5px 5px 5px rgba(114, 114, 114, 0.38);
 }
 
 
@@ -892,7 +891,7 @@ MEDIA QUERY DEVICE BREAKPOINTS
     }
 
     .credit {
-        padding-top: 80px;
+        padding-top: 0;
     }
 
     .address {
@@ -930,7 +929,7 @@ iPad 3
         width: 100%;
     }
     .credit {
-        padding-top: 20px;
+        padding-top: 80px;
     }
 }
 
@@ -1394,7 +1393,7 @@ h1.hello {
         text-align: center;
     }
     div.social {
-        height: 10rem;
+        height: 25rem;
     }
     div.social li {
         display: inline-block;
