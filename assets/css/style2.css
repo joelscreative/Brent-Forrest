@@ -129,6 +129,7 @@ ul.nav.navbar-nav.navfont {}
 .biobox{
     margin-top: 0rem;
     margin-bottom: 10rem;
+    width: 100%;
 }
 
 #about {
@@ -152,7 +153,7 @@ ul.nav.navbar-nav.navfont {}
     border-radius: 50%;
     background-color: #d5d5d5;
     vertical-align: middle;
-    margin: 5rem auto;
+    margin: 80px 0px 0px 62%;
 }
 
 @media (max-width: 992px) {
@@ -168,8 +169,6 @@ ul.nav.navbar-nav.navfont {}
 
 .logowrap {
     height: 100%;
-    margin: 0 auto;
-    text-align: center;
 }
 
 .mt {
@@ -256,7 +255,6 @@ select {
     /* position: relative; */
     bottom: 0px;
     display: block;
-    text-align: left;
 }
 
 h1.hello {
@@ -474,7 +472,7 @@ h3.workcopy {
 
 .backgroundiosfallback {
     background-color: #F9F9FA;
-    box-shadow: 5px 5px 5px rgba(114, 114, 114, 0.38);
+    box-shadow: 5px 5px 5px rgba(114, 114, 114, 0.05);
 }
 
 
@@ -590,7 +588,6 @@ only screen and (max-width: 767px) {
     font-weight: 400;
     color: #d5d5d5;
     line-height: 2em;
-    margin-top: 10%;
 }
 
 @media (max-width: 765px) {
@@ -605,15 +602,15 @@ only screen and (max-width: 767px) {
 /*===========================SOCIAL NAV===========================*/
 
 div.social {
-  /* margin: 50px auto 50px auto; */
+  margin: 50px auto 50px auto;
   width: 100%;
 }
 
 div.social ul {
   height: 50px;
-  margin: 25% 0 0 0;
+  margin: 0px 50px 0px -20px;
   padding:0px;
-  text-align: center;
+  text-align: left;
 }
 
 @media (max-width: 765px){
@@ -895,7 +892,7 @@ MEDIA QUERY DEVICE BREAKPOINTS
     }
 
     .credit {
-        padding-top: 0;
+        padding-top: 80px;
     }
 
     .address {
@@ -915,7 +912,7 @@ iPad 3
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
     #about {
-        height: auto;
+        height: 100%;
         width: 100%;
         /* padding-bottom:2rem; */
     }
@@ -1397,8 +1394,7 @@ h1.hello {
         text-align: center;
     }
     div.social {
-        height: 25rem;
-        text-align: center;
+        height: 10rem;
     }
     div.social li {
         display: inline-block;
