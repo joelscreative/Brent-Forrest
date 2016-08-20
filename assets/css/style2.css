@@ -349,6 +349,26 @@ h3.workcopy {
     margin-bottom: 1em;
 }
 
+.links {
+    margin: 5rem auto;
+    color: #fff !important;
+    font-weight: 900;
+    font-size: 1.5em;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.links button {
+    margin: 0 auto;
+    border: none;
+    padding:2rem;
+    width: 90%;
+}
+
+.links a {
+    color: #fff !important;
+}
+
 @media (max-width: 770px) {
     .biotext {
         font-size: 1.5em;
