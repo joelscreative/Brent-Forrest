@@ -152,7 +152,7 @@ ul.nav.navbar-nav.navfont {}
     border-radius: 50%;
     background-color: #d5d5d5;
     vertical-align: middle;
-    margin: 80px 0px 0px 62%;
+    margin: 5rem auto;
 }
 
 @media (max-width: 992px) {
@@ -168,6 +168,8 @@ ul.nav.navbar-nav.navfont {}
 
 .logowrap {
     height: 100%;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .mt {
@@ -254,6 +256,7 @@ select {
     /* position: relative; */
     bottom: 0px;
     display: block;
+    text-align: left;
 }
 
 h1.hello {
@@ -587,6 +590,7 @@ only screen and (max-width: 767px) {
     font-weight: 400;
     color: #d5d5d5;
     line-height: 2em;
+    margin-top: 10%;
 }
 
 @media (max-width: 765px) {
@@ -601,15 +605,15 @@ only screen and (max-width: 767px) {
 /*===========================SOCIAL NAV===========================*/
 
 div.social {
-  margin: 50px auto 50px auto;
+  /* margin: 50px auto 50px auto; */
   width: 100%;
 }
 
 div.social ul {
   height: 50px;
-  margin: 0px 50px 0px -20px;
+  margin: 25% 0 0 0;
   padding:0px;
-  text-align: left;
+  text-align: center;
 }
 
 @media (max-width: 765px){
@@ -1394,6 +1398,7 @@ h1.hello {
     }
     div.social {
         height: 25rem;
+        text-align: center;
     }
     div.social li {
         display: inline-block;
