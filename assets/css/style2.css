@@ -139,6 +139,7 @@ ul.nav.navbar-nav.navfont {}
     width: 60%;
     text-align: left;
     padding-left: 5rem;
+    margin-left: 0 !important;
   }
   .navbar-left,.navbar-right {
       float: none !important;
@@ -160,8 +161,8 @@ ul.nav.navbar-nav.navfont {}
   .navbar-nav {
       float: none!important;
       margin-top: 7.5px;
-      display: none;
-  }
+      /*display: none;
+*/  }
   .navbar-nav>li {
       float: none;
   }
